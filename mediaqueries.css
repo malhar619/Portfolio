@@ -101,3 +101,16 @@
     text-align: justify;
   }
 }
+
+
+@keyframes blink {
+  0% { color: red; }
+  25% { color: green; }
+  50% { color: red; }
+  75% { color: green; }
+  100% { color: blue; }
+}
+
+.blinking-link {
+  animation: blink 1s infinite;
+}
